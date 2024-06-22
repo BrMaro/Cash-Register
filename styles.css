@@ -1,0 +1,84 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #121212; /* Black theme */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Overlay */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card {
+    background-color: #1e1e1e; /* Slightly lighter than black */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Card shadow */
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+/* Header */
+.card h1 {
+    color: #ff8c00; /* Dark orange color */
+    margin-bottom: 20px;
+}
+
+/* Input */
+.card input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ff8c00;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Button */
+.card button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff8c00;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.card button:hover {
+    background-color: #ff7000; /* Lighter dark orange */
+}
+
+/* Change Due */
+#change-due {
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+}
